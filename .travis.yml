@@ -9,6 +9,6 @@ install:
   - pip install pygame
   - pip install pyganim
 script:
-  - ./tests.py
+  - ./tests.py test
 after_success:
   - pylint Main.py
