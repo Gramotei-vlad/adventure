@@ -1,10 +1,10 @@
 language: python
 python:
-  - 3.6
+  - 3.5.1
 env:
   - CODECOV_TOKEN="e042fc33-35cf-4e14-b8f5-8285703bdbeb"
 install:
   - pip install codecov
   - pip install pylint
 after_success:
-  - pylint Game/GameLoop.py
+  - pylint Main.py
