@@ -1,0 +1,5 @@
+fps: 60
+sound: 1
+full_screen: 1
+width: 1024
+height: 768

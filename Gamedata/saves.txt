@@ -1,0 +1,2 @@
+max_distance: 6570
+total_distance: 42150
