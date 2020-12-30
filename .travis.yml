@@ -9,6 +9,7 @@ install:
   - pip install pygame
   - pip install pyganim
 script:
-  - test
+  - echo foo
 after_success:
   - pylint Main.py
+  - pylint Game/GameLoop.py
