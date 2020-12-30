@@ -6,7 +6,9 @@ env:
 install:
   - pip install codecov
   - pip install pylint
+  - pip install pygame
+  - pip install pyanim
 script:
-  - echo foo
+  - ./tests.py
 after_success:
   - pylint Main.py
