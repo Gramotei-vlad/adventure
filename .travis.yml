@@ -6,7 +6,7 @@ env:
 install:
   - pip install codecov
   - pip install pylint
-  - pip install pygame
+  - pip install pygame==1.9.3
   - pip install pyganim
 script:
   - echo foo
