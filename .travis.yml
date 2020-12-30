@@ -7,7 +7,7 @@ install:
   - pip install codecov
   - pip install pylint
   - pip install pygame
-  - pip install pyanim
+  - pip install pyganim
 script:
   - ./tests.py
 after_success:
