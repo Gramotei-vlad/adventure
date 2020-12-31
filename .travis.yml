@@ -9,6 +9,7 @@ install:
   - pip install pygame==1.9.3
   - pip install pyganim
 script:
-  - bash <(curl -s https://codecov.io/bash)
+  - echo foo
 after_success:
   - pylint Game/GameLoop.py
+  - bash <(curl -s https://codecov.io/bash)
