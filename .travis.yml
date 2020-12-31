@@ -2,14 +2,14 @@ language: python
 python:
   - 3.6
 env:
-  - CODECOV_TOKEN="e042fc33-35cf-4e14-b8f5-8285703bdbeb"
+  - CODECOV_TOKEN="0b623512-8f4e-4485-9d55-3bc3093fb2a0"
 install:
   - pip install codecov
   - pip install pylint
   - pip install pygame==1.9.3
   - pip install pyganim
 script:
-  - echo foo
+  - ./setup.py test
+  - curl -s https://codecov.io/bash
 after_success:
-  - pylint Main.py
   - pylint Game/GameLoop.py

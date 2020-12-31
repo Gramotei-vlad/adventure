@@ -1,5 +1,6 @@
 # adventure
 [![Build Status](https://travis-ci.org/Gramotei-vlad/adventure.svg?branch=main)](https://travis-ci.org/Gramotei-vlad/adventure)
+[![codecov](https://codecov.io/gh/Gramotei-vlad/adventure/branch/main/graph/badge.svg)](https://codecov.io/gh/Gramotei-vlad/adventure)
 
 В качестве финального проекта по курсу будет реализована игра в жанре платформер. В игре будет несколько уровней, персонажей, мобов и т.д.
 
