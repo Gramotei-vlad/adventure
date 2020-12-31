@@ -102,6 +102,7 @@ class MainCharacter(Sprite):
                 self.stay_and_left_animation.blit(screen, camera.apply(self))
             if self.rect.x >= left_stop * 1024 + 150:
                 self.rect.x -= self.speed
+                self.max_distance -= self.speed
         else:
             if self.on_ground:
                 self.stay_and_left_animation.blit(screen, camera.apply(self))
