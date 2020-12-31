@@ -15,5 +15,8 @@
 ## Как поиграть?
 Для начала нужно скачать архив с кодом и игровыми ресурсами. Также нужна какая-нибудь IDE для запуска кода. Python не компилируемый язык, поэтому создать exe-файл, если и можно, то очень геморно. Setup.py установит все необходимое для запуска.
 
+## Как ты это забацал?
+О процессе разработки можно прочитать в разделе wiki здесь на github.
+
 ## Copyright
 Copyright © 2020 Vladislav Kosukhin. See [license](https://github.com/Gramotei-vlad/adventure/blob/master/LICENSE) for details.
